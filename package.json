@@ -2,6 +2,7 @@
   "name": "my-portfolio",
   "version": "0.1.0",
   "private": true,
+  "packageManager": "pnpm@10.28.0",
   "type": "module",
   "scripts": {
     "dev": "next dev",
@@ -15,6 +16,7 @@
     "gsap": "^3.15.0",
     "lucide-react": "^0.554.0",
     "next": "16.3.8",
+    "pdfjs-dist": "6.3.289",
     "react": "19.3.0",
     "react-dom": "19.3.0",
     "react-pdf": "^11.0.0",
