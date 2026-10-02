@@ -1,0 +1,165 @@
+export const projects = [
+  {
+    title: "The Wild Oasis",
+    tags: ["React", "Supabase", "Redux"],
+    github: "",
+    demo: "",
+    featured: true,
+    image: "/Projects/The-Wild-Oasis.png",
+    cover: "dashboard",
+  },
+  {
+    title: "The Wild Oasis Website",
+    tags: ["Next.js", "Supabase", "Tailwind CSS", "Auth.js"],
+    github: "",
+    demo: "",
+    featured: true,
+    image: "/Projects/The-Wild-Oasis-Website.png",
+    cover: "oasis",
+  },
+  {
+    title: "Fast React Pizza",
+    tags: ["React", "Redux", "Tailwind CSS", "REST API"],
+    github: "",
+    demo: "",
+    featured: true,
+    image: "/Projects/Fast-React-Pizza.png",
+    cover: "pizza",
+  },
+  {
+    title: "Limitless Vibes",
+    tags: [],
+    github: "",
+    demo: "https://limitless.y345.xyz/",
+    featured: true,
+    image: "/Projects/Limitless-Vibes.png",
+    cover: "vibes",
+  },
+  {
+    title: "Taj Cinema Booking",
+    tags: [],
+    github: "",
+    demo: "",
+    featured: true,
+    image: "/Projects/Taj-Cinema-Booking.png",
+    cover: "cinema",
+  },
+];
+
+export const certificates = [
+  {
+    title: "Networking Basics",
+    issuer: "Cisco Networking Academy · Middle East University",
+    date: "May 2026",
+    file: "/certificates/Networking_Basics_certificate_202410411-stu-meu-edu-jo_b17072e7-da39-4a57-a5ad-06eb57b7742d.pdf",
+    tags: ["Networking"],
+  },
+  {
+    title: "Getting Started with Cisco Packet Tracer",
+    issuer: "Cisco Networking Academy · Middle East University",
+    date: "Apr 2026",
+    file: "/certificates/Getting_Started_with_Cisco_Packet_Tracer_certificate_202410411-stu-meu-edu-jo_6b13c674-aa0a-4742-84f6-14cce4d8cfae.pdf",
+    tags: ["Packet Tracer", "Networking"],
+  },
+  {
+    title: "Digital System Design using Verilog HDL",
+    issuer: "Mahara-Tech (ITI Platform)",
+    date: "May 2026",
+    file: "/certificates/Course_Certificate_En.pdf",
+    tags: ["Verilog HDL"],
+  },
+  {
+    title: "Introduction to Software Engineering",
+    issuer: "IBM via Coursera",
+    date: "May 2026",
+    file: "/certificates/Coursera KQJ1XY0GNZIL.pdf",
+    tags: ["Software Engineering"],
+  },
+  {
+    title: "Getting Started with Git and GitHub",
+    issuer: "IBM via Coursera",
+    date: "May 2026",
+    file: "/certificates/Coursera XF0UAOB5EA5M.pdf",
+    tags: ["Git", "GitHub"],
+  },
+  {
+    title: "The Complete JavaScript Course 2025: From Zero to Expert!",
+    issuer: "Udemy · Jonas Schmedtmann",
+    date: "Oct 2025",
+    file: "/certificates/UC-469f5fc3-cd03-4fc7-b571-a3af57e2bc9b.pdf",
+    tags: ["JavaScript"],
+  },
+  {
+    title: "Build Responsive Real-World Websites with HTML and CSS",
+    issuer: "Udemy · Jonas Schmedtmann",
+    date: "Dec 2024",
+    file: "/certificates/UC-589f2c99-0f48-4a44-b3a9-b06efdc6d8ea.pdf",
+    tags: ["HTML", "CSS"],
+  },
+  {
+    title: "The Ultimate React Course 2025: React, Next.js, Redux & More",
+    issuer: "Udemy · Jonas Schmedtmann",
+    file: "/certificates/UC-81126ab7-38dd-4ebc-877d-fc43663fb70c.pdf",
+    date: "Jul 2026",
+    tags: ["React", "Next.js", "Redux", "Tailwind CSS", "Supabase"],
+  },
+  {
+    title: "Master Cisco CCNA 200-301: Comprehensive All-in-One Course",
+    issuer: "Udemy · Jeremy McDowell",
+    file: "/certificates/UC-88114b04-6785-437b-8611-9872f78e43d8.pdf",
+    date: "Oct 2026",
+    tags: ["CCNA", "Networking"],
+  },
+];
+
+export const skillCategories = [
+  {
+    title: "Frontend",
+    skills: [
+      { name: "HTML", icon: "html" },
+      { name: "CSS", icon: "css" },
+      { name: "JavaScript", icon: "js" },
+      { name: "React", icon: "react" },
+      { name: "Redux", icon: "redux" },
+      { name: "Next.js", icon: "nextjs" },
+      { name: "Tailwind CSS", icon: "tailwind" },
+      { name: "Bootstrap", icon: "bootstrap" },
+    ],
+  },
+  {
+    title: "Languages",
+    skills: [
+      { name: "Java", icon: "java" },
+      { name: "Python", icon: "python" },
+      { name: "PHP", icon: "php" },
+    ],
+  },
+  {
+    title: "Database",
+    skills: [
+      { name: "MySQL", icon: "mysql" },
+      { name: "PostgreSQL", icon: "postgres" },
+      { name: "Firebase", icon: "firebase" },
+      { name: "Supabase", icon: "supabase" },
+      { name: "Prisma", icon: "prisma" },
+    ],
+  },
+  {
+    title: "Tools",
+    skills: [
+      { name: "Git", icon: "git" },
+      { name: "GitHub", icon: "github" },
+      { name: "VS Code", icon: "vscode" },
+      { name: "Figma", icon: "figma" },
+    ],
+  },
+  {
+    title: "Systems",
+    skills: [
+      { name: "Linux", icon: "linux" },
+      { name: "Ubuntu", icon: "ubuntu" },
+      { name: "Kali Linux", icon: "kali" },
+      { name: "Windows", icon: "windows" },
+    ],
+  },
+];
