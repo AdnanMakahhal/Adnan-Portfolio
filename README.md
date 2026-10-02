@@ -75,4 +75,4 @@ public/
 
 - Email: [adnan.pls2003@gmail.com](mailto:adnan.pls2003@gmail.com)
 - GitHub: [AdnanMakahhal](https://github.com/AdnanMakahhal)
-- LinkedIn: [Adnan Makahhal](https://www.linkedin.com/in/adnan-makahhal-90578731b/) 
+- LinkedIn: [Adnan Makahhal](https://www.linkedin.com/in/adnan-makahhal-90578731b/)
