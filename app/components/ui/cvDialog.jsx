@@ -81,9 +81,6 @@ export default function CvDialog({ open, onClose }) {
       >
         <header className="flex items-center justify-between gap-5 border-b border-[#e4e4e4] bg-white px-5 py-4 max-[600px]:px-[13px]">
           <div>
-            <span className="mb-[3px] block text-[9px] tracking-[.16em] text-[#777]">
-              CURRICULUM VITAE
-            </span>
             <h2
               id="cv-dialog-title"
               className="text-lg font-[650] tracking-[-.025em] text-[#242424]"
@@ -117,32 +114,65 @@ export default function CvDialog({ open, onClose }) {
           aria-label="PDF controls"
         >
           <div className="flex items-center gap-[9px] max-[600px]:gap-1">
-            <button className={roundButtonClass} type="button" onClick={previousPage} disabled={pageNumber <= 1} aria-label="Previous page">
+            <button
+              className={roundButtonClass}
+              type="button"
+              onClick={previousPage}
+              disabled={pageNumber <= 1}
+              aria-label="Previous page"
+            >
               <ChevronLeft size={19} aria-hidden="true" />
             </button>
             <span className="min-w-[104px] text-center text-xs tabular-nums text-[#666] max-[600px]:min-w-20 max-[600px]:text-[11px]">
-              Page <strong className="font-semibold text-[#242424]">{pageNumber}</strong>{" "}
-              of <strong className="font-semibold text-[#242424]">{numPages || "–"}</strong>
+              Page{" "}
+              <strong className="font-semibold text-[#242424]">
+                {pageNumber}
+              </strong>{" "}
+              of{" "}
+              <strong className="font-semibold text-[#242424]">
+                {numPages || "–"}
+              </strong>
             </span>
-            <button className={roundButtonClass} type="button" onClick={nextPage} disabled={!numPages || pageNumber >= numPages} aria-label="Next page">
+            <button
+              className={roundButtonClass}
+              type="button"
+              onClick={nextPage}
+              disabled={!numPages || pageNumber >= numPages}
+              aria-label="Next page"
+            >
               <ChevronRight size={19} aria-hidden="true" />
             </button>
           </div>
 
           <div className="flex items-center gap-[9px] max-[600px]:gap-1">
-            <button className={roundButtonClass} type="button" onClick={() => setZoom((value) => Math.max(0.7, value - 0.1))} disabled={zoom <= 0.7} aria-label="Zoom out">
+            <button
+              className={roundButtonClass}
+              type="button"
+              onClick={() => setZoom((value) => Math.max(0.7, value - 0.1))}
+              disabled={zoom <= 0.7}
+              aria-label="Zoom out"
+            >
               <Minus size={18} aria-hidden="true" />
             </button>
             <span className="min-w-[104px] text-center text-xs tabular-nums text-[#666] max-[600px]:min-w-11 max-[600px]:text-[11px]">
               {Math.round(zoom * 100)}%
             </span>
-            <button className={roundButtonClass} type="button" onClick={() => setZoom((value) => Math.min(1.6, value + 0.1))} disabled={zoom >= 1.6} aria-label="Zoom in">
+            <button
+              className={roundButtonClass}
+              type="button"
+              onClick={() => setZoom((value) => Math.min(1.6, value + 0.1))}
+              disabled={zoom >= 1.6}
+              aria-label="Zoom in"
+            >
               <Plus size={18} aria-hidden="true" />
             </button>
           </div>
         </div>
 
-        <div ref={viewerRef} className="min-w-0 overflow-auto overscroll-contain bg-[#d5d5d5] p-2 max-[600px]:p-1">
+        <div
+          ref={viewerRef}
+          className="min-w-0 overflow-auto overscroll-contain bg-[#d5d5d5] p-2 max-[600px]:p-1"
+        >
           <Document
             className="grid min-w-min justify-center"
             file={CV_URL}
@@ -150,8 +180,16 @@ export default function CvDialog({ open, onClose }) {
               setNumPages(loadedPages);
               setPageNumber(1);
             }}
-            loading={<p className="px-5 py-10 text-center text-sm text-[#555]">Loading CV…</p>}
-            error={<p className="px-5 py-10 text-center text-sm text-[#8d2d2d]">The CV could not be displayed. Please use Download PDF instead.</p>}
+            loading={
+              <p className="px-5 py-10 text-center text-sm text-[#555]">
+                Loading CV…
+              </p>
+            }
+            error={
+              <p className="px-5 py-10 text-center text-sm text-[#8d2d2d]">
+                The CV could not be displayed. Please use Download PDF instead.
+              </p>
+            }
           >
             <Page
               className="overflow-hidden rounded-[3px] bg-white shadow-[0_8px_32px_#00000024] [&_canvas]:block [&_canvas]:max-w-none"
@@ -159,7 +197,11 @@ export default function CvDialog({ open, onClose }) {
               width={Math.round(pageWidth * zoom)}
               renderTextLayer={false}
               renderAnnotationLayer={false}
-              loading={<p className="px-5 py-10 text-center text-sm text-[#555]">Rendering page…</p>}
+              loading={
+                <p className="px-5 py-10 text-center text-sm text-[#555]">
+                  Rendering page…
+                </p>
+              }
             />
           </Document>
         </div>
