@@ -934,6 +934,7 @@ section {
   overflow: hidden;
 }
 .reference-name {
+  font-family: var(--font-name), sans-serif;
   position: absolute;
   z-index: 1;
   top: 65px;
@@ -943,7 +944,7 @@ section {
   justify-content: space-between;
   gap: 20px;
   font-size: clamp(65px, 9.3vw, 150px);
-  font-weight: 750;
+  font-weight: 600;
   line-height: 1.08;
   letter-spacing: -0.065em;
   white-space: nowrap;
@@ -954,7 +955,7 @@ section {
   -webkit-text-stroke: 2px #202020;
 }
 .reference-name strong {
-  font-weight: 800;
+  font-weight: 700;
 }
 .reference-person {
   position: absolute;
@@ -1488,7 +1489,7 @@ body {
 .hero-viewport .reference-name {
   justify-content: center;
   font-size: min(8vw, 17dvh, 160px);
-  letter-spacing: -0.055em;
+  letter-spacing: -0.045em;
   gap: 0.24em;
   margin-top: clamp(12px, 3dvh, 36px);
   line-height: 1.12;

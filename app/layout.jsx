@@ -1,8 +1,13 @@
-import { Inter } from "next/font/google";
+import { Inter, Space_Grotesk } from "next/font/google";
 import "./globals.css";
 import { cn } from "@/lib/utils";
 
 const inter = Inter({ subsets: ["latin"] });
+const nameFont = Space_Grotesk({
+  subsets: ["latin"],
+  variable: "--font-name",
+  display: "swap",
+});
 
 export const metadata = {
   title: "Adnan Makahhal | Full-Stack Developer",
@@ -13,7 +18,7 @@ export const metadata = {
 export default function RootLayout({ children }) {
   return (
     <html lang="en" className="scroll-smooth">
-      <body className={cn(inter.className, "antialiased bg-background text-foreground")}>
+      <body className={cn(inter.className, nameFont.variable, "antialiased bg-background text-foreground")}>
         {children}
       </body>
     </html>

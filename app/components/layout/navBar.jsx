@@ -39,7 +39,7 @@ export default function NavBar() {
   return (
     <nav ref={navRef} className="reference-nav" aria-label="Main navigation">
       <a href="#home" className="header-brand" aria-label="Adnan Makahhal home">
-        AM<span>.</span>
+        AM
       </a>
       <div className="reference-nav-links">
         {navItems.map((item) => (
