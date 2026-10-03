@@ -17,7 +17,7 @@ pdfjs.GlobalWorkerOptions.workerSrc = new URL(
   import.meta.url,
 ).toString();
 
-const CV_URL = "/documents/Adnan_Makahhal_Front_End_Intern_CV.pdf";
+const CV_URL = "/documents/Adnan_Makahhal_CV.pdf";
 const roundButtonClass =
   "grid size-10 place-items-center rounded-full border border-[#dedede] bg-white text-[#242424] transition-[background,box-shadow] duration-200 hover:bg-[#f2f2f2] hover:shadow-[0_4px_14px_#00000010] disabled:cursor-default disabled:opacity-35 disabled:hover:bg-white disabled:hover:shadow-none motion-reduce:transition-none max-[600px]:size-9";
 
