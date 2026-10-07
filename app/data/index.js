@@ -40,8 +40,8 @@ export const projects = [
   {
     title: "Taj Cinema Booking",
     tags: [],
-    github: "",
-    demo: "",
+    github: "https://github.com/AdnanMakahhal/Taj-Cinemas",
+    demo: "https://taj-cinemas.vercel.app",
     featured: true,
     image: "/Projects/Taj-Cinema-Booking.png",
     cover: "cinema",
