@@ -39,7 +39,7 @@ export const projects = [
   },
   {
     title: "Taj Cinema Booking",
-    tags: ["React", "Tailwind CSS"],
+    tags: ["React", "Tailwind CSS", "Supabase"],
     github: "https://github.com/AdnanMakahhal/Taj-Cinemas",
     demo: "https://taj-cinemas.vercel.app",
     featured: true,
