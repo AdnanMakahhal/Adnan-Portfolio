@@ -11,6 +11,7 @@ const tagIcons = {
   React: "react",
   "Next.js": "nextjs",
   "Tailwind CSS": "tailwind",
+  TypeScript: "ts",
   Supabase: "supabase",
   Redux: "redux",
   HTML: "html",
@@ -174,6 +175,5 @@ export default function ProjectsSection() {
     </section>
   );
 }
-
 
 

@@ -30,7 +30,7 @@ export const projects = [
   },
   {
     title: "Limitless Vibes",
-    tags: [],
+    tags: ["TypeScript", "Tailwind CSS"],
     github: "",
     demo: "https://limitless.y345.xyz/",
     featured: true,
@@ -39,7 +39,7 @@ export const projects = [
   },
   {
     title: "Taj Cinema Booking",
-    tags: [],
+    tags: ["React", "Tailwind CSS"],
     github: "https://github.com/AdnanMakahhal/Taj-Cinemas",
     demo: "https://taj-cinemas.vercel.app",
     featured: true,
