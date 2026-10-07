@@ -2,8 +2,9 @@ export const projects = [
   {
     title: "The Wild Oasis",
     tags: ["React", "Supabase", "Redux"],
-    github: "",
-    demo: "",
+    github:
+      "https://github.com/AdnanMakahhal/The-Wild-Oasis/tree/main/The-Wild-Oasis",
+    demo: "https://adnan-the-wild-oasis.vercel.app/login",
     featured: true,
     image: "/Projects/The-Wild-Oasis.png",
     cover: "dashboard",
@@ -11,8 +12,9 @@ export const projects = [
   {
     title: "The Wild Oasis Website",
     tags: ["Next.js", "Supabase", "Tailwind CSS", "Auth.js"],
-    github: "",
-    demo: "",
+    github:
+      "https://github.com/AdnanMakahhal/The-Wild-Oasis/tree/main/The-Wild-Oasis-Website",
+    demo: "https://adnan-the-wild-oasis-website.vercel.app/",
     featured: true,
     image: "/Projects/The-Wild-Oasis-Website.png",
     cover: "oasis",
@@ -20,8 +22,8 @@ export const projects = [
   {
     title: "Fast React Pizza",
     tags: ["React", "Redux", "Tailwind CSS", "REST API"],
-    github: "",
-    demo: "",
+    github: "https://github.com/AdnanMakahhal/Fast-React-Pizza",
+    demo: "https://adnan-fast-react-pizza.vercel.app/",
     featured: true,
     image: "/Projects/Fast-React-Pizza.png",
     cover: "pizza",
